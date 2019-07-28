@@ -1,42 +1,16 @@
 <template>
   <div class="container">
     <div>
-      <logo />
+      <img src="~/assets/vantablack.jpg" width="640">
       <h1 class="title">
         SwipeBipolar4Team
       </h1>
       <h2 class="subtitle">
         レギュラーチーム内の躁鬱度を、常に把握する
       </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
     </div>
   </div>
 </template>
-
-<script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
-</script>
 
 <style>
 .container {
