@@ -38,8 +38,19 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/onesignal',
     '@nuxtjs/pwa',
   ],
+
+  oneSignal: {
+    init: {
+      appId: 'a85bb110-611c-4517-baf1-8c6cffab442f',
+      allowLocalhostAsSecureOrigin: true,
+      welcomeNotification: {
+        disable: true
+      }
+    }
+  },
   /*
   ** Build configuration
   */
