@@ -13,9 +13,12 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "@nuxtjs/auth": "^4.8.1",
+    "@nuxtjs/axios": "^5.5.4",
     "@nuxtjs/onesignal": "^3.0.0-beta.16",
     "@nuxtjs/pwa": "^3.0.0-beta.16",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.27",

@@ -40,6 +40,8 @@ export default {
   modules: [
     '@nuxtjs/onesignal',
     '@nuxtjs/pwa',
+    '@nuxtjs/axios',
+    '@nuxtjs/auth'
   ],
 
   oneSignal: {
@@ -51,6 +53,11 @@ export default {
       }
     }
   },
+
+  auth: {
+    // Options
+  },
+
   /*
   ** Build configuration
   */
